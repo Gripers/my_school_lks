@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 26px auto;
+}
+
+.wrapper .left,
+.wrapper .right {
+  display: grid;
+  gap: 20px;
+}
+
+.wrapper .left img,
+.wrapper .right img {
+  height: 50px;
+}
+
+.wrapper .left > div,
+.wrapper .right > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper .left > div > a,
+.wrapper .right > div > a {
+  background: linear-gradient(180deg, #ff001f 0%, #8e0e1e 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+@media all and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .wrapper .left {
+    border-bottom: 2px solid #ff001f;
+    padding-bottom: 20px;
+  }
+
+  .wrapper .left > div > a,
+  .wrapper .right > div > a {
+    font-size: 16px;
+  }
+}
