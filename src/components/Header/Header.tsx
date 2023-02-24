@@ -12,8 +12,8 @@ const Header = () => {
       </div> */}
       <div>
         <h2>HAR KUNI YANGI IBORALAR</h2>
-        <h2>O'RGANISH UCHUN</h2>
-        <h1>BIZGA OBUNA BO'LING!</h1>
+        <h2>O&aposRGANISH UCHUN</h2>
+        <h1>BIZGA OBUNA BO&aposLING!</h1>
       </div>
     </header>
   );
